@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+
+div {
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+div p {
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+div p:nth-child(1) {
+    background-color: #0078A6;
+}
+div p:nth-child(2) {
+    background-color: #0084B5;
+}
+div p:nth-child(3) {
+    background-color: #008CC1;
+}
