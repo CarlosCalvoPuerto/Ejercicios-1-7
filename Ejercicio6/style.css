@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+
+div {
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+div p {
+    height: 150px;
+    width: 150px;
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+    background-color: #0078A6;
+}
