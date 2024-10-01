@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+.dado {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cara {
+    background-color: #555;
+    border: 1px solid black;
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+    display: flex;
+}
+.punto {
+    background-color: white;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+}
+
+/* Cara 1 */
+.cara1 {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cara 2 */
+.cara2 {
+    justify-content: space-between;
+}
+.cara2 :nth-child(2) {
+    align-self: flex-end;
+}
+
+/* Cara 3 */
+.cara3 {
+    justify-content: space-between;
+}
+.cara3 :nth-child(2) {
+    align-self: center;
+}
+.cara3 :nth-child(3) {
+    align-self: flex-end;
+}
+
+/* Cara 4 y Cara 6 */
+.cara4, .cara5, .cara6 {
+    justify-content: space-between; 
+}
+ .columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Cara 5 */
+.cara5 :nth-child(2) {
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
